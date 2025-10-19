@@ -1,0 +1,5 @@
+:square x x*x
+square 2+3
+:circle_area r pi*r**2
+circle_area 5
+quit "{} {}"
