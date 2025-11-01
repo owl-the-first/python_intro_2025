@@ -1,0 +1,12 @@
+a, b, c = Omnibus(), Omnibus(), Omnibus()
+a.x = a.y = a.z = 1
+b.y = b.z = 2
+c.z = 3
+print(a.x, a.y, a.z, b.y, b.z, c.z)
+del b
+print(a.x, a.y, a.z, c.z)
+d = Omnibus()
+d.x = d.y = d.z = "test"
+print(a.x, a.y, a.z, c.z, d.x, d.y, d.z)
+del a.x, c.z
+print(a.y, a.z, d.x, d.y, d.z)

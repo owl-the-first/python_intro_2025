@@ -1,0 +1,13 @@
+maze = Maze(3)
+print(maze)
+print()
+maze[0,0 : 0,2] = "·"
+maze[0,2 : 2,2] = "·"
+maze[2,2 : 2,0] = "·"
+maze[2,0 : 0,0] = "·"
+print(maze)
+print()
+print(maze[0,0 : 0,2], maze[0,0 : 2,0], maze[0,2 : 2,2])
+maze[0,1 : 0,2] = "█"
+print(maze)
+print(maze[0,0 : 0,2])

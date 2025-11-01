@@ -1,0 +1,13 @@
+a = Omnibus()
+b = Omnibus()
+a.x = 1
+print(a.x, b.x)
+b.x = 2
+print(a.x, b.x)
+del a.x
+print(a.x, b.x)
+c = Omnibus()
+c.x = 3
+print(a.x, b.x, c.x)
+del b
+print(a.x, c.x)  # 1 1

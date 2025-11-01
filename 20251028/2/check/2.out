@@ -1,0 +1,6 @@
+a area: 8.000, b area: 8.000
+a < b: False, b < a: False
+a in b: False, b in a: False
+a & b: True
+c in a: True
+c & a: True

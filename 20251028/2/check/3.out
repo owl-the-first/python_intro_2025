@@ -1,0 +1,8 @@
+d exists: False
+e exists: False
+f exists: False
+g exists: True
+d in g: True
+e in g: True
+d & g: False
+e & f: False
