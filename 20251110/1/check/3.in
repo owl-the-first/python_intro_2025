@@ -1,0 +1,4 @@
+a = DivStr("ABfdstCDsgbE")
+b = DivStr("1234513548645")
+c = a + b
+print(*c // 16)
