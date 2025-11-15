@@ -1,0 +1,14 @@
+class Example:
+    num = Num()
+obj1 = Example()
+obj2 = Example()
+print(obj1.num)
+print(obj2.num)
+obj1.num = 10
+obj2.num = 20
+print(obj1.num)
+print(obj2.num)
+obj1.num = 30
+print(obj1.num)
+print(obj2.num)
+print(obj1.num + obj2.num)

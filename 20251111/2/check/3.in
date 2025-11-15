@@ -1,0 +1,30 @@
+class Container:
+    value = Num()
+test = Container()
+
+test.value = 42
+print(test.value)
+test.value = 3.14159
+print(test.value)
+test.value = 5 + 3j
+print(test.value)
+test.value = "Hello"
+print(test.value)
+test.value = [1, 2, 3, 4, 5, 6]
+print(test.value)
+test.value = (10, 20, 30)
+print(test.value)
+test.value = range(100)
+print(test.value)
+
+class Dual:
+    def __init__(self):
+        self.real = 999
+    def __len__(self):
+        return 100
+
+dual_obj = Dual()
+test.value = dual_obj
+print(test.value)
+test.value = 7
+print(test.value)

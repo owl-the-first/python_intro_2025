@@ -1,0 +1,7 @@
+@objcount
+class Simple:
+    pass
+a, b, c = Simple(), Simple(), Simple()
+print(Simple.counter)
+del a
+print(Simple.counter)

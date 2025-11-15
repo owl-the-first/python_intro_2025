@@ -1,0 +1,10 @@
+v1 = Vowel()
+print(v1)
+print(v1.full)
+v1.a = 1
+print(v1)
+print(v1.full)
+v1.e, v1.i, v1.o, v1.u, v1.y = 2, 3, 4, 5, 6
+print(v1)
+print(v1.full)
+print(v1.answer)
