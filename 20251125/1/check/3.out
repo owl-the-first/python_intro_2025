@@ -1,0 +1,6 @@
+__init__: ('Alice',), {}
+__init__: ('Bob',), {}
+greet: (), {}
+Alice (#1) says hello!
+greet: (2,), {}
+Bob (#2) says hello!Bob (#2) says hello!

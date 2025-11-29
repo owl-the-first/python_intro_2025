@@ -1,0 +1,5 @@
+# Программа с делением на ноль
+store 5 x
+store 0 y
+div x y z
+out z

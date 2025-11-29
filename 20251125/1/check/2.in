@@ -1,0 +1,22 @@
+class Chain(metaclass=dump):
+    def __init__(self, start=0):
+        self.value = start
+
+    def add(self, x):
+        self.value += x
+        return self
+
+    def multiply(self, x):
+        self.value *= x
+        return self
+
+    def subtract(self, x):
+        self.value -= x
+        return self
+
+    def get(self):
+        return self.value
+
+chain = Chain(10)
+result = chain.add(5).multiply(2).subtract(3).get()
+print(f"Final result: {result}")

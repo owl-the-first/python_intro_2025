@@ -1,0 +1,15 @@
+class Counter(metaclass=dump):
+    count = 0
+
+    def __init__(self, name):
+        self.name = name
+        Counter.count += 1
+        self.id = Counter.count
+
+    def greet(self, times=1):
+        return f"{self.name} (#{self.id}) says hello!" * times
+
+c1 = Counter("Alice")
+c2 = Counter("Bob")
+print(c1.greet())
+print(c2.greet(2))

@@ -1,0 +1,6 @@
+__init__: (10,), {}
+add: (5,), {}
+multiply: (2,), {}
+subtract: (3,), {}
+get: (), {}
+Final result: 27
